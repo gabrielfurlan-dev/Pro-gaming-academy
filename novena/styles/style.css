@@ -55,6 +55,11 @@ Version: 1.0.0
   max-width: 500px;
 }
 
+#comunidade li{
+  font-family: 'Teko', sans-serif;
+  font-size: 1.20rem;
+}
+
 
 /*minhas modificações */
 
@@ -511,12 +516,6 @@ a:focus {
   margin-right: 10px;
 }
 
-.bg-1 {
-  background: url("../images/bg/22.jpg") no-repeat 50% 50%;
-  background-size: cover;
-  position: relative;
-}
-
 .banner {
   position: relative;
   overflow: hidden;
@@ -897,7 +896,7 @@ a:focus {
 .cta-section {
   margin-bottom: -80px;
   background: rgb(247,247,247);
-  background: linear-gradient(180deg, rgba(247,247,247,1) 0%, rgba(247,247,247,1) 50%, rgba(0,0,0,1) 50%);
+  background: linear-gradient(180deg, rgb(248, 249, 250) 0%, rgba(247,247,247,1) 50%, rgba(0,0,0,1) 50%);
 }
 
 .cta-2 {
