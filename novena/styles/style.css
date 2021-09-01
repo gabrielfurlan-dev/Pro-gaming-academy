@@ -664,8 +664,8 @@ a:focus {
   box-shadow: 0px 5px 10px 0px #0f0f0f;
 
 
-  background: rgb(0,0,0);
-  background: linear-gradient(180deg, rgba(0,0,0,1) 30%, rgba(255,255,255,1) 30%, rgba(247,247,247,1) 100%);
+  background: rgb(255, 255, 255);
+  /*background: linear-gradient(180deg, rgba(0,0,0,1) 30%, rgba(255,255,255,1) 30%, rgba(247,247,247,1) 100%);*/
 }
 
 .feature-item .feature-icon i {
@@ -693,7 +693,7 @@ a:focus {
 
 .counter-stat {
   text-align: center;
-  padding: 55px 0px 40px 0px;
+  padding: 15px 0px 15px 0px;
   position: relative;
 }
 
@@ -867,7 +867,7 @@ a:focus {
 }
 
 .cta {
-  background: url("../img/pubg-season-10-l6.jpg") no-repeat 50% 50%;
+  background: url("../img/pubg-season-10-l6.jpg") no-repeat 30% 30%;
   background-size: cover;
   position: relative;
   border-radius: 25px;
@@ -910,125 +910,6 @@ a:focus {
   position: relative;
 }
 
-.testimonial {
-  position: relative;
-}
-
-.testimonial:before {
-  width: 48%;
-  height: 100%;
-  top: 0;
-  left: 0px;
-  position: absolute;
-  content: "";
-  background: url("../images/bg/bg-2.jpg") no-repeat 50% 50%;
-}
-
-.testimonial .slick-dots {
-  text-align: left;
-}
-
-.testimonial-block {
-  position: relative;
-  margin-bottom: 20px;
-}
-
-.testimonial-block p {
-  background: #fff;
-  font-size: 18px;
-}
-
-.testimonial-block .client-info {
-  margin-bottom: 20px;
-}
-
-.testimonial-block .client-info h4 {
-  margin-bottom: 0px;
-}
-
-.testimonial-block i {
-  font-size: 60px;
-  position: absolute;
-  right: 46px;
-  bottom: 89px;
-  opacity: .08;
-}
-
-.testimonial-block .slick-dots {
-  text-align: left;
-}
-
-.testimonial-wrap-2 .slick-dots {
-  margin-left: -10px;
-}
-
-.testimonial-block.style-2 {
-  background: #fff;
-  padding: 30px;
-  margin: 0px 4px;
-  margin-bottom: 30px;
-}
-
-.testimonial-block.style-2 .testimonial-thumb {
-  float: left;
-}
-
-.testimonial-block.style-2 .testimonial-thumb img {
-  width: 80px;
-  height: 80px;
-  border-radius: 100%;
-  margin-right: 20px;
-  margin-bottom: 30px;
-  border: 5px solid #eff0f3;
-  margin-top: -5px;
-}
-
-.testimonial-block.style-2 .client-info p {
-  clear: both;
-  background: transparent;
-}
-
-.testimonial-block.style-2 i {
-  bottom: -20px;
-  color: #e12454;
-  opacity: .3;
-}
-
-@media (max-width: 480px) {
-  .testimonial-wrap {
-    margin-left: 0px;
-  }
-  .testimonial::before {
-    display: none;
-  }
-}
-
-@media (max-width: 400px) {
-  .testimonial-wrap {
-    margin-left: 0px;
-  }
-  .testimonial::before {
-    display: none;
-  }
-}
-
-@media (max-width: 768px) {
-  .testimonial-wrap {
-    margin-left: 0px;
-  }
-  .testimonial::before {
-    display: none;
-  }
-}
-
-@media (max-width: 992px) {
-  .testimonial-wrap {
-    margin-left: 0px;
-  }
-  .testimonial::before {
-    display: none;
-  }
-}
 
 .contact-form-wrap .form-group {
   margin-bottom: 20px;
@@ -1424,8 +1305,9 @@ a:focus {
   top: 35%;
 }
 
-.footer {
-  padding-bottom: 10px;
+footer {
+  font-size: 0.9rem;
+  color: rgb(173, 173, 173);
 }
 
 .footer .copyright a {
