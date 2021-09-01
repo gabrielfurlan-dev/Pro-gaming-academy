@@ -58,10 +58,11 @@ Version: 1.0.0
 #comunidade li{
   font-family: 'Teko', sans-serif;
   font-size: 1.20rem;
+  color: var(--cor-h1)
 }
 
 
-/*minhas modificações */
+/*minhas modificações ^^^^^^ */
 
 @import url("https://fonts.googleapis.com/css?family=Exo:500,600,700|Roboto&display=swap");
 html {
@@ -663,9 +664,8 @@ a:focus {
   box-shadow: 0px 5px 10px 0px #0f0f0f;
 
 
-  background: black;
-
-
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 30%, rgba(255,255,255,1) 30%, rgba(247,247,247,1) 100%);
 }
 
 .feature-item .feature-icon i {
@@ -674,12 +674,12 @@ a:focus {
 }
 
 .feature-item h4 {
-  color: var(--cor-h1);
+  color: var(--cor-secundaria);
 }
 
 .feature-item p, span, li {
   font-size: 14px;
-  color: var(--cor-h1);
+  color: var(--cor-secundaria);
 }
 
 .feature-section.border-top {
