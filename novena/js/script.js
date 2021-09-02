@@ -194,3 +194,12 @@
     });
 
 })(jQuery);
+
+(async () => {
+	let url = 'http://localhost:3000/';
+	let response = await fetch(url);
+	let api = await response.json();
+
+	const texto = document.getElementsByTagName('membros_online')[0];
+	texto.innerHTML = `${api.data}`
+})()
